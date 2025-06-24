@@ -14,41 +14,41 @@ include_once './Classes/Gato.class.php';
     $adotante->endereco = 'rua xxxxxxxxxxx'; 
     $adotante->$temoutrosanimais = 'não';
     $adotante->$experienciacompets = 'não';
-    $adotante->$animaladotado = 'gato';
+    $adotante->$animaladotado = 'Gato';
 
    $animal = new Animal();
 
-   $animal->nome = '';
-   $animal->especie = ;
-   $animal->idade = '';
-   $animal->sexo = '';
-   $animal->peso = '';
-   $animal->cor = '';
-   $animal->status = '';
-   $animal->chipado = '';
+   $animal->nome = 'Beto, Luna';
+   $animal->especie = 'Mamífero';
+   $animal->idade = '2';
+   $animal->sexo = 'Macho, Fêmea';
+   $animal->peso = '26kg, 3,5kg';
+   $animal->cor = 'Mesclado, Preta';
+   $animal->status = 'Disponível';
+   $animal->chipado = 'Não';
 
 
    $cachorro = new Cachorro();
 
-   $cachorro->nome = '';
-   $cachorro->raca = '';
-   $cachorro->porte = '';
-   $cachorro->nivelEnergia = ''; 
-   $cachorro->vacinado = '';
-   $cachorro->vermifugado = ''; 
-   $cachorro->sociavel = '';
-   $cachorro->adestrado = '';
+   $cachorro->nome = 'Beto';
+   $cachorro->raca = 'Pastor-alemão';
+   $cachorro->porte = 'Grande';
+   $cachorro->nivelEnergia = '8'; 
+   $cachorro->vacinado = 'Sim';
+   $cachorro->vermifugado = 'Não'; 
+   $cachorro->sociavel = 'Sim';
+   $cachorro->adestrado = 'Sim';
    
 
    $gato = new Gato();
    
 
-   $gato->nome = '';
-   $gato->pelagem = '';
-   $gato->castrado = '';
-   $gato->independente = '';
-   $gato->vacinado = '';
-   $gato->curioso = '';
-   $gato->adoraColo = '';
-   $gato->usaCaixaAreia = '';
+   $gato->nome = 'Luna';
+   $gato->pelagem = 'Preta';
+   $gato->castrado = 'Sim';
+   $gato->independente = '8';
+   $gato->vacinado = 'Sim';
+   $gato->curioso = 'Sim';
+   $gato->adoraColo = 'Sim';
+   $gato->usaCaixaAreia = 'Sim';
 ?>

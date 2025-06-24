@@ -3,7 +3,7 @@
 include_once './Classes/Animal.class.php'
 
 
-class Gato{
+class Gato extends Animal{
 
     public $nome;
     public $pelagem;

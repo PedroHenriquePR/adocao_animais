@@ -2,7 +2,7 @@
 
 include_once './Classes/Animal.class.php'
 
-class Cachorro{
+class Cachorro extends Animal{
 
     public $nome;
     public $raca;
