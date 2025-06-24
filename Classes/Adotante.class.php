@@ -12,7 +12,9 @@ class Adotante{
     public $animaladotado;
 
 
-
+public function exibirAdotante(): string{
+    return ""
+}
 
 }
 

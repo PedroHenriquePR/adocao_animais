@@ -1,5 +1,7 @@
 <?php
 
+include_once './Classes/Animal.class.php'
+
 class Cachorro{
 
     public $nome;
