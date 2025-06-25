@@ -10,20 +10,24 @@ include_once './Classes/Gato.class.php';
     $adotante->nome = 'Pedro';
     $adotante->idade = 17;
     $adotante->telefone = 'xxxxxxxxxxx'; 
-    $adotante->email = 'xxxxxxx@xxxxxxxx'
-    $adotante->endereco = 'rua xxxxxxxxxxx'; 
-    $adotante->$temoutrosanimais = 'não';
-    $adotante->$experienciacompets = 'não';
-    $adotante->$animaladotado = 'Gato';
+    $adotante->email = 'xxxxxxx@xxxxxxxx';
+    $adotante->endereco = 'Rua xxxxxxxxxxx'; 
+    $adotante->temoutrosanimais = 'não';
+    $adotante->experienciacompets = 'não';
+    $adotante->animaladotado = 'Gato';
+
+    echo $adotante->exibirAdotante(). '<br>';
+    echo $adotante->adotarAnimal(). '<br>';
+    echo $adotante->verificarIdade(). '<br>';
 
    $animal = new Animal();
 
-   $animal->nome = 'Beto, Luna';
+   $animal->nome = 'Luna';
    $animal->especie = 'Mamífero';
-   $animal->idade = '2';
-   $animal->sexo = 'Macho, Fêmea';
-   $animal->peso = '26kg, 3,5kg';
-   $animal->cor = 'Mesclado, Preta';
+   $animal->idade = 2;
+   $animal->sexo = 'Fêmea';
+   $animal->peso = '3,5kg';
+   $animal->cor = 'Preta';
    $animal->status = 'Disponível';
    $animal->chipado = 'Não';
 
